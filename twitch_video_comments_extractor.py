@@ -1,6 +1,8 @@
 # Download all comment from a twitch video to a file, need video id as argument.
 # The video id is the last part of the video url.
 # Es: in https://www.twitch.tv/videos/494918762 the id is 494918762
+# i found the core of this code in RechatTool which is C# source code
+# and i ported it to python.
 
 import sys
 import json
